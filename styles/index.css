@@ -28,7 +28,7 @@ body {
   font-weight: var(--font-regular);
   font-size: var(--size);
   background-color: var(--slate-300);
-  color: var(--slate-900);
+  color: var(--slate-500);
 }
 
 .card-wrapper {
@@ -44,8 +44,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: min(21.2667rem, 90vw);
-  padding: clamp(0.75rem, 1.2rem, 1.25rem) clamp(0.75rem, 1.067rem, 1.25rem);
+  max-width: min(21.333333rem, 90vw);
+  padding: clamp(0.75rem, 1.1333rem, 1.25rem) clamp(0.75rem, 1.03333rem, 1.25rem);
   margin: 0 clamp(5vw, 1.867rem, 1.25rem);
   border-radius: 1rem;
 }
@@ -66,13 +66,14 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: clamp(0.85rem, 1.2rem, 1.35rem) clamp(0.75rem, 1.067rem, 1.25rem);
-  gap: clamp(0.75rem, 1.067rem, 1.25rem);
+  padding: clamp(0.85rem, 1.6rem, 1.35rem) clamp(0.75rem, 1.03333rem, 1.25rem);
+  gap: clamp(0.75rem, 1.2333337rem, 1.35rem);
 }
 
 .card .content h1 {
   font-size: clamp(1.25rem, 1.5rem, 1.75rem);
   font-weight: var(--font-bold);
+  color: var(--slate-900);
 }
 
 .card .content p {
